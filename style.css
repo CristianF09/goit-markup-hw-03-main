@@ -1,0 +1,172 @@
+:root {
+  --link-color: #ffffff;
+  --social-link-color: #434455;
+  --link-color_hover: #2e2f42;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+* {
+  font-family: var(--text-font-family);
+}
+.global-header {
+  border-bottom: 1px solid #e7e9fc;
+  background: #fff;
+  width: 1200px;
+  height: 72px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  width: 261px;
+  height: 24px;
+}
+
+.webstudio .png .web {
+  text-color: #4d5ae5;
+}
+
+.webstudio .png .studio {
+  text-color: #2e2f42;
+}
+
+.global-header a.hover {
+  color: var=(--link-color_hover);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.container-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-section .hero-title {
+  background-color: var(--link-color_hover);
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: raw;
+}
+
+.button-service {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  color: var(--link-color);
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  padding: 16px, 32px, 16px, 32px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: raw;
+}
+
+.container-section1 {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 104px;
+}
+
+.container-feature1, .container-feature2, .container-feature3, .container-feature4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.container-section2 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  text-align: center;
+  width: 1200px;
+  height: 412px;
+}
+
+.container-section3 {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  text-align: center;
+  width: 1200px;
+  height: 732px;
+  background: #f4f4fd;
+}
+
+.logo:after {
+  content: "STUDIO";
+  color: #2e2f42;
+}
+
+.footer-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+}
+
+.global-footer .footer-title {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  width: 1200px;
+  height: 312px;
+}
+
+.logo-footer::after {
+  content: "STUDIO";
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  width: 115px;
+  height: 24px;
+}
